@@ -6,7 +6,7 @@ import time
 import tensorflow as tf
 
 sys.path.append(os.getcwd())
-from tensorflow.contrib import slim
+import tf_slim as slim
 from nets import model_train as model
 from utils.dataset import data_provider as data_provider
 
