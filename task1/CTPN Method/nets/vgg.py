@@ -1,7 +1,5 @@
 import tensorflow as tf
-
-slim = tf.contrib.slim
-
+import tf_slim as slim
 
 def vgg_arg_scope(weight_decay=0.0005):
     with slim.arg_scope([slim.conv2d, slim.fully_connected],
